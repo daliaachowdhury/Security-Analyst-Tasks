@@ -24,8 +24,6 @@ The goal of this task was to perform a basic network scan using **Nmap** to iden
 3. Scanned External Host (ScanMe):
 
 bash
-
-Edit
 nmap -sV scanme.nmap.org -oN nmap_scan_results.txt
 
 4.Captured and analyzed output
@@ -48,7 +46,8 @@ PORT     STATE SERVICE       VERSION
 5432/tcp open  postgresql    PostgreSQL DB 9.6.0 or later
 🧠 Analysis of Ports
 Port	Service	Description
-135	Microsoft RPC	Used by Windows for Remote Procedure Call services.
+135	Microsoft RPC	Used by Windows for Remote Procedure Call services.<img width="1611" height="1097" alt="Screenshot 2025-07-17 123028" src="https://github.com/user-attachments/assets/27d5daff-2fa1-4b6f-9f02-1247c5455bfb" />
+
 445	SMB (microsoft-ds)	Handles file sharing in Windows (SMB).
 2869	HTTP	Common for UPnP devices or HTTP APIs.
 3306	MySQL	Database service port; vulnerable if exposed.
@@ -56,6 +55,7 @@ Port	Service	Description
 
 📸 Supporting Files
 nmap_scan_results.txt – Output of external scan
+
 
 screenshot1.png – Nmap results terminal screenshot
 
