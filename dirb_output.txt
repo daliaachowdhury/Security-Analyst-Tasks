@@ -1,0 +1,34 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb_output.txt
+START_TIME: Thu Jul 17 07:21:36 2025
+URL_BASE: http://scanme.nmap.org/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://scanme.nmap.org/ ----
+==> DIRECTORY: http://scanme.nmap.org/.svn/
++ http://scanme.nmap.org/favicon.ico (CODE:403|SIZE:293)
+==> DIRECTORY: http://scanme.nmap.org/images/
++ http://scanme.nmap.org/index (CODE:200|SIZE:6974)
++ http://scanme.nmap.org/index.html (CODE:200|SIZE:6974)
++ http://scanme.nmap.org/server-status (CODE:403|SIZE:295)
+==> DIRECTORY: http://scanme.nmap.org/shared/
+
+---- Entering directory: http://scanme.nmap.org/.svn/ ----
+(!) WARNING: All responses for this directory seem to be CODE = 403.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://scanme.nmap.org/images/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://scanme.nmap.org/shared/ ----
+==> DIRECTORY: http://scanme.nmap.org/shared/.svn/
